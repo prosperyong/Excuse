@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background: #5C258D;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4389A2, #5C258D);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+body .container {
+  background-color: #fff;
+  padding: 50px 20px;
+  border-radius: 0.5em;
+  text-align: center;
+  max-width: 100%;
+  width: 800px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+body .container .header {
+  letter-spacing: 2px;
+  margin: 0;
+  opacity: 0.5;
+}
+body .container .joke {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+body .container .btn {
+  background-color: #9f68e0;
+  border: none;
+  border-radius: 0.5em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 40px;
+}
+body .container .btn:focus {
+  outline: 0;
+}
+body .container .btn:hover {
+  cursor: pointer;
+}
+body .container .btn:active {
+  transform: scale(0.98);
+}/*# sourceMappingURL=main.css.map */
